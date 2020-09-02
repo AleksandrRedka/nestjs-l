@@ -1,9 +1,9 @@
-export class CreateTodo{
+export class CreateDto{
   title: string;
   isCompleted ?: boolean;
 }
 
-export class UpdateTodo{
+export class UpdateDto{
   title: string;
   isCompleted?: boolean;
 }

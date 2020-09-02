@@ -1,10 +1,5 @@
+
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
-
-//GetOneById
-//GetAll
-//Post(Create or Update)
-//Delete (Delete)
-
 
 @Entity()
 export class Todo {
